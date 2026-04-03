@@ -1,7 +1,7 @@
 {
-    "name": "akaunting/akaunting",
-    "description": "Online accounting software built with Laravel",
-    "homepage": "https://akaunting.com",
+    "name": "custom/accounting-system",
+    "description": "Custom accounting software built with Laravel",
+    "homepage": "https://yourcompany.com",
     "keywords": [
         "laravel",
         "accounting",
@@ -10,7 +10,7 @@
         "software",
         "online"
     ],
-    "license": "BUSL-1.1",
+    "license": "MIT",
     "type": "project",
     "require": {
         "php": "^8.1",
@@ -19,8 +19,8 @@
         "ext-curl": "*",
         "ext-dom": "*",
         "ext-fileinfo": "*",
-        "ext-gd": "*",
         "ext-intl": "*",
+        "ext-gd": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-openssl": "*",
@@ -79,11 +79,11 @@
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.9",
-        "brianium/paratest": "^7.3.2",
+        "brianium/paratest": "^7.1",
         "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
-        "phpunit/phpunit": "^10.5.63",
+        "phpunit/phpunit": "10.5.30",
         "spatie/laravel-ignition": "^2.0",
         "wnx/laravel-stats": "^2.11"
     },
@@ -166,9 +166,6 @@
         "allow-plugins": {
             "mnsami/composer-custom-directory-installer": true,
             "php-http/discovery": true
-        },
-        "audit": {
-            "ignore": ["PKSA-y2cr-5h3j-g3ys"]
         }
     }
 }
